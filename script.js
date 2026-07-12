@@ -18,7 +18,7 @@ const newsData = [
   },
   {
     date: "2026.05",
-    en: 'I joined Alibaba Group, DAMO Academy(ALi Star Project) as a research intern, working on embodied foundation models, VLA models and Wolrd models',
+    en: 'I joined Alibaba Group, DAMO Academy(ALi Star Project) as a research intern, working on embodied foundation models, VLA models and Wolrd models.',
     zh: '我在阿里巴巴达摩院进行实习（阿里星项目），研究方向为具身基础模型、VLA模型和世界模型'
   },
   {
@@ -101,7 +101,7 @@ const publicationsData = [
     title:
       "ACE-Brain-0.5: A Unified Embodied Foundational Model for Physical Agentic AI",
     authors:
-      "Z Gong, H Gu, Z Luo, <strong>T Zhang</strong>, T Tao, Y Chi, Z Liu, L Zhu, J Liu, ...",
+      "Z Gong*, H Gu*, Z Luo*, <strong>T Zhang</strong>*, T Tao*, Y Chi*, Z Liu*, L Zhu*, J Liu*, ...",
     venue: "arXiv preprint, 2026",
     links: [{ label: "Paper", url: "https://arxiv.org/abs/2607.04426" }]
   },
@@ -109,14 +109,14 @@ const publicationsData = [
     title:
       "Vlaser: Vision-Language-Action Model with Synergistic Embodied Reasoning",
     authors:
-      "G Yang, <strong>T Zhang</strong>, H Hao, W Wang, Y Liu, D Wang, G Chen, Z Cai, J Chen, ...",
+      "G Yang*, <strong>T Zhang</strong>*, H Hao*, W Wang, Y Liu, D Wang, G Chen, Z Cai, J Chen, ...",
     venue: "ICLR, 2026",
     links: [{ label: "Paper", url: "https://arxiv.org/pdf/2510.11027" }]
   },
   {
     title:
       "Grounding Actions in Camera Space: Observation-Centric Vision-Language-Action Policy",
-    authors: "<strong>T Zhang</strong>, H Duan, H Hao, Y Qiao, J Dai, Z Hou",
+    authors: "<strong>T Zhang</strong>*, H Duan*, H Hao, Y Qiao, J Dai, Z Hou",
     venue: "AAAI, 2026",
     links: [
       { label: "Paper", url: "https://ojs.aaai.org/index.php/AAAI/article/download/38947/42909" },
@@ -127,7 +127,7 @@ const publicationsData = [
     title:
       "Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy",
     authors:
-      "Z Hou, <strong>T Zhang</strong>, Y Xiong, H Duan, H Pu, R Tong, C Zhao, X Zhu, Y Qiao, J Dai, Y Chen",
+      "Z Hou*, <strong>T Zhang</strong>*, Y Xiong, H Duan, H Pu, R Tong, C Zhao, X Zhu, Y Qiao, J Dai, Y Chen",
     venue: "ICCV, 2025",
     links: [
       { label: "Project", url: "https://robodita.github.io/" },
@@ -140,7 +140,7 @@ const publicationsData = [
       "Visual Embodied Brain: Let Multimodal Large Language Models See, Think, and Control in Spaces",
     authors:
       "G Luo, G Yang, Z Gong, G Chen, H Duan, E Cui, R Tong, Z Hou, <strong>T Zhang</strong>, ...",
-    venue: "TPAMI, Under Review",
+    venue: "arXiv preprint, 2025",
     links: [{ label: "Paper", url: "https://arxiv.org/abs/2506.00123" }]
   },
   {
@@ -154,7 +154,7 @@ const publicationsData = [
   {
     title: "Diffusion Transformer Policy",
     authors:
-      "Z Hou, <strong>T Zhang</strong>, Y Xiong, H Pu, C Zhao, R Tong, Y Qiao, J Dai, Y Chen",
+      "Z Hou*, <strong>T Zhang</strong>*, Y Xiong, H Pu, C Zhao, R Tong, Y Qiao, J Dai, Y Chen",
     venue: "arXiv preprint, 2024",
     links: [{ label: "Paper", url: "https://arxiv.org/abs/2410.15959" }]
   },
