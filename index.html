@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tianyi Zhang | Personal Website</title>
+    <meta
+      name="description"
+      content="Tianyi Zhang's Website。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top">Tianyi Zhang</a>
+        <nav class="nav">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#news" data-i18n="nav.news">News</a>
+          <a href="#publications" data-i18n="nav.publications">Publications</a>
+          <a href="#education" data-i18n="nav.education">Education</a>
+          <a href="#experience" data-i18n="nav.experience">Experience</a>
+          <a href="#awards" data-i18n="nav.awards">Awards</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="lang-toggle" aria-label="切换语言 / Switch language">中</button>
+          <button class="menu-toggle" aria-label="切换导航菜单">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-left">
+          <p class="kicker" data-i18n="hero.kicker">Ph.D. Student at Zhejiang University</p>
+          <h1 data-i18n="hero.title">
+            Hi, I am <span class="gradient-text">Tianyi Zhang</span>
+          </h1>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#publications" data-i18n="hero.btnPubs">View Publications</a>
+            <a class="btn btn-ghost" href="#contact" data-i18n="hero.btnContact">Get In Touch</a>
+          </div>
+          <ul class="quick-links">
+            <li><a href="mailto:tianyizhang0213@zju.edu.cn">Email</a></li>
+            <li><a href="https://scholar.google.com/citations?user=y6xT-xYAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+            <li><a href="https://github.com/ZTY0213" target="_blank" rel="noopener noreferrer">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/tianyizhang-412607375" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+          </ul>
+        </div>
+        <div class="hero-right">
+          <div class="portrait-card">
+            <img src="./assets/IMG_1001.jpeg" alt="Tianyi Zhang photo" />
+            <div class="portrait-meta">
+              <p class="location" data-i18n="hero.location">📍 Hangzhou, China</p>
+              <p class="role" data-i18n="hero.role">Ph.D. Student, Zhejiang University</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2 data-i18n="about.title">About</h2>
+        <div class="card">
+          <p data-i18n="about.p1">
+            I am <strong>Tianyi Zhang (张添翼)</strong>, a Ph.D. student at the
+            <strong>College of Computer Science and Technology, Zhejiang University</strong>.
+            My research focuses on <strong>embodied intelligence</strong> and
+            <strong>multimodal large language models</strong>, with an emphasis on
+            <strong>Vision-Language-Action (VLA) policy learning</strong> for robotic manipulation.
+          </p>
+          <p data-i18n="about.p2">
+            Previously, I was a research intern at the
+            <strong>Shanghai Innovation Institute (Large Model Center)</strong>, where I worked on
+            generalist robot manipulation models including <strong>Dita</strong> (ICCV 2025),
+            <strong>OC-VLA</strong> (AAAI 2026), and <strong>Vlaser</strong> (ICLR 2026),
+            as well as the <strong>InternVL</strong> series. I received my M.S. from
+            <strong>Tsinghua University</strong>, working on CUDA optimization and
+            large-scale neural network training acceleration, and my B.S. from
+            <strong>Xiamen University</strong>, ranking <strong>1st</strong> in my major.
+          </p>
+        </div>
+      </section>
+
+      <section id="news" class="section container">
+        <div class="section-head">
+          <h2 data-i18n="news.title">News</h2>
+          <button class="text-link news-toggle" id="news-toggle" type="button">See all</button>
+        </div>
+        <!-- News 条目在 script.js 顶部的 newsData 数组中维护 -->
+        <div class="timeline" id="news-list"></div>
+      </section>
+
+      <section id="publications" class="section container">
+        <div class="section-head">
+          <h2 data-i18n="pubs.title">Selected Publications</h2>
+          <a href="https://scholar.google.com/citations?user=y6xT-xYAAAAJ&hl=zh-CN" class="text-link" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        </div>
+        <!-- 论文条目在 script.js 顶部的 publicationsData 数组中维护 -->
+        <div class="pub-grid" id="pub-list"></div>
+      </section>
+
+      <section id="education" class="section container">
+        <h2 data-i18n="edu.title">Education</h2>
+        <div class="list-card">
+          <article class="list-row">
+            <div>
+              <h3 data-i18n="edu.item1.h">Ph.D. Candidate, Computer Science and Technology, Zhejiang University, China</h3>
+            </div>
+            <p class="date" data-i18n="edu.item1.date">2023.09 - Now</p>
+          </article>
+          <article class="list-row">
+            <div>
+              <h3 data-i18n="edu.item2.h">M.S., Electronic Information (Software Engineering), Tsinghua University, China</h3>
+            </div>
+            <p class="date" data-i18n="edu.item2.date">2020.08 - 2023.06</p>
+          </article>
+          <article class="list-row">
+            <div>
+              <h3 data-i18n="edu.item3.h">B.S., Integrated Circuit Design and Integrated Systems, Xiamen University, China</h3>
+            </div>
+            <p class="date" data-i18n="edu.item3.date">2016.08 - 2020.07</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section container">
+        <h2 data-i18n="exp.title">Experience</h2>
+        <!-- 经历条目在 script.js 顶部的 experienceData 数组中维护 -->
+        <div class="list-card" id="exp-list"></div>
+      </section>
+
+      <section id="awards" class="section container">
+        <h2 data-i18n="awards.title">Honors &amp; Awards</h2>
+        <div class="list-card">
+          <article class="list-row">
+            <div>
+              <h3 data-i18n="awards.item1.h">National Scholarship</h3>
+            </div>
+            <p class="date" data-i18n="awards.item1.date">2018 &amp; 2019</p>
+          </article>
+          <article class="list-row">
+            <div>
+              <h3 data-i18n="awards.item2.h">ACM-ICPC Asia Regional Contest, Silver Medal ×2</h3>
+            </div>
+            <p class="date" data-i18n="awards.item2.date">2019.10 &amp; 2019.11</p>
+          </article>
+          <article class="list-row">
+            <div>
+              <h3 data-i18n="awards.item5.h">CCF-CCSP Collegiate Computer Systems and Programming Contest, National Bronze Medal</h3>
+            </div>
+            <p class="date" data-i18n="awards.item5.date">2019.10</p>
+          </article>
+          <article class="list-row">
+            <div>
+              <h3 data-i18n="awards.item3.h">Fujian Collegiate Programming Contest, Gold Medal</h3>
+            </div>
+            <p class="date" data-i18n="awards.item3.date">2019.05</p>
+          </article>
+          <article class="list-row">
+            <div>
+              <h3 data-i18n="awards.item4.h">ACM-ICPC Asia Regional Contest, Bronze Medal ×2</h3>
+            </div>
+            <p class="date" data-i18n="awards.item4.date">2018.10 &amp; 2018.11</p>
+          </article>
+          <article class="list-row">
+            <div>
+              <h3 data-i18n="awards.item6.h">The 4th China Collegiate Programming Contest (Guilin), National Bronze Medal</h3>
+            </div>
+            <p class="date" data-i18n="awards.item6.date">2018.10</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <div class="contact-card">
+          <p data-i18n="contact.p1">
+            Feel free to reach out: <a href="mailto:tianyizhang0213@zju.edu.cn">tianyizhang0213@zju.edu.cn</a>
+          </p>
+          <p data-i18n="contact.p2">
+            Address: Yuquan Campus, Zhejiang University, Xihu District, Hangzhou, China ·
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p data-i18n="footer.copy">© <span id="year"></span> Tianyi Zhang. All rights reserved.</p>
+        <a href="#top" data-i18n="footer.top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
