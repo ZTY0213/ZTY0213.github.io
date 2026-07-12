@@ -19,12 +19,12 @@ const newsData = [
   {
     date: "2026.05",
     en: 'I joined Alibaba Group, DAMO Academy(ALi Star Project) as a research intern, working on embodied foundation models, VLA models and Wolrd models.',
-    zh: '我在阿里巴巴达摩院进行实习（阿里星项目），研究方向为具身基础模型、VLA模型和世界模型'
+    zh: '我在阿里巴巴达摩院进行实习（阿里星项目），研究方向为具身基础模型、VLA模型和世界模型。'
   },
   {
     date: "2026.04",
-    en: 'I joined ACE Robotics as a research intern, working on embodied foundation models and VLA',
-    zh: '我在大晓机器人进行实习，研究方向为具身基础模型和 VLA'
+    en: 'I joined ACE Robotics as a research intern, working on embodied foundation models and VLA.',
+    zh: '我在大晓机器人进行实习，研究方向为具身基础模型和 VLA。'
   },
   {
     date: "2026.01",
