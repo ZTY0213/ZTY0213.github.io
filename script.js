@@ -68,7 +68,7 @@ const newsData = [
   },
   {
     date: "2023.06",
-    en: 'I joined Shanghai Artificial Intelligence Laboratory as an research intern and reported to <a href="https://jifengdai.org/" target="_blank" rel="noopener noreferrer">Prof. Jifeng Dai</a>.',
+    en: 'I joined Shanghai Artificial Intelligence Laboratory as a research intern and reported to <a href="https://jifengdai.org/" target="_blank" rel="noopener noreferrer">Prof. Jifeng Dai</a>.',
     zh: '我进入上海人工智能实验室进行实习，汇报给<a href="https://jifengdai.org/" target="_blank" rel="noopener noreferrer">代季峰教授</a>。'
   },
   {
