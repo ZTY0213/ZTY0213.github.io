@@ -13,6 +13,11 @@ const langToggle = document.querySelector(".lang-toggle");
 const newsData = [
   {
     date: "2026.07",
+    en: 'We released <a href="https://arxiv.org/abs/2607.17977" target="_blank" rel="noopener noreferrer">RynnBrain1.1</a>, a more capable and generalizable embodied foundation model.',
+    zh: '我们发布了 <a href="https://arxiv.org/abs/2607.17977" target="_blank" rel="noopener noreferrer">RynnBrain1.1</a>，一款更强大、更通用的具身基础模型。'
+  },
+  {
+    date: "2026.07",
     en: 'We released <a href="https://arxiv.org/abs/2607.04426" target="_blank" rel="noopener noreferrer">ACE-Brain-0.5</a>, a unified embodied foundational model for physical agentic AI.',
     zh: '我们发布了 <a href="https://arxiv.org/abs/2607.04426" target="_blank" rel="noopener noreferrer">ACE-Brain-0.5</a>，一款面向物理具身智能体的统一具身基础模型。'
   },
