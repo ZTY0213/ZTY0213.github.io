@@ -104,6 +104,18 @@ const newsData = [
 const publicationsData = [
   {
     title:
+      "RynnBrain 1.1: Towards More Capable and Generalizable Embodied Foundation Model",
+    authors:
+      "K Li*, B Hou*, M Zhu*, <strong>T Zhang</strong>*, Z Cheng*, Z Wang*, S Leng*, X Li*, X Lin*, B Yao*, M Zeng*, J Liu*, R Dang*, ...",
+    venue: "arXiv preprint, 2026",
+    links: [
+      { label: "Project", url: "https://alibaba-damo-academy.github.io/RynnBrain" },
+      { label: "Paper", url: "https://arxiv.org/abs/2607.17977" },
+      { label: "Code", url: "https://github.com/alibaba-damo-academy/RynnBrain" }
+    ]
+  },
+  {
+    title:
       "ACE-Brain-0.5: A Unified Embodied Foundational Model for Physical Agentic AI",
     authors:
       "Z Gong*, H Gu*, Z Luo*, <strong>T Zhang</strong>*, T Tao*, Y Chi*, Z Liu*, L Zhu*, J Liu*, ...",
