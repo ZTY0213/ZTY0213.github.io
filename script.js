@@ -12,6 +12,16 @@ const langToggle = document.querySelector(".lang-toggle");
 // News：date 为显示日期；en / zh 分别是英文和中文文案
 const newsData = [
   {
+    date: "2026.08",
+    en: 'We released <a href="https://arxiv.org/pdf/2608.01066v1" target="_blank" rel="noopener noreferrer">OC-VLA++</a>, a method for VLA viewpoint enhancement using monocular geometry guidance and cross-view consistency constraints.',
+    zh: '我们发布了 <a href="https://arxiv.org/pdf/2608.01066v1" target="_blank" rel="noopener noreferrer">OC-VLA++</a>， 一个利用单目几何引导和跨视角一致性约束实现VLA视角增强的方法。'
+  },
+  {
+    date: "2026.07",
+    en: 'We released <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7158998" target="_blank" rel="noopener noreferrer">Identifiability and Latent Geometry of Joint-embedding Predictive World Models</a> , a theoretical study on identifiability and planning well-posedness in JEPA-style world models.',
+    zh: '我们发布了 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7158998" target="_blank" rel="noopener noreferrer">Identifiability and Latent Geometry of Joint-embedding Predictive World Models</a>，一项从理论上解释 JEPA 风格世界模型可辨识性与规划良定性的工作。'
+  },
+  {
     date: "2026.07",
     en: 'We released <a href="https://arxiv.org/abs/2607.17977" target="_blank" rel="noopener noreferrer">RynnBrain1.1</a>, a more capable and generalizable embodied foundation model.',
     zh: '我们发布了 <a href="https://arxiv.org/abs/2607.17977" target="_blank" rel="noopener noreferrer">RynnBrain1.1</a>，一款更强大、更通用的具身基础模型。'
@@ -20,6 +30,11 @@ const newsData = [
     date: "2026.07",
     en: 'We released <a href="https://arxiv.org/abs/2607.04426" target="_blank" rel="noopener noreferrer">ACE-Brain-0.5</a>, a unified embodied foundational model for physical agentic AI.',
     zh: '我们发布了 <a href="https://arxiv.org/abs/2607.04426" target="_blank" rel="noopener noreferrer">ACE-Brain-0.5</a>，一款面向物理具身智能体的统一具身基础模型。'
+  },
+  {
+    date: "2026.06",
+    en: 'We released <a href="https://arxiv.org/pdf/2607.22597" target="_blank" rel="noopener noreferrer">HyCE-RAG</a>, an evidence-chain-aware hypergraph reasoning framework for explainable multi-hop question answering.',
+    zh: '我们发布了 <a href="https://arxiv.org/pdf/2607.22597" target="_blank" rel="noopener noreferrer">HyCE-RAG</a>，一种面向可解释多跳问答的超图证据链检索增强生成框架。'
   },
   {
     date: "2026.05",
@@ -104,6 +119,13 @@ const newsData = [
 const publicationsData = [
   {
     title:
+      "OC-VLA++: Monocular Geometry-Guided Cross-View Consistency for Viewpoint-Robust Robotic Manipulation",
+    authors: "<strong>T Zhang</strong>, Z Gong, Z Yang, Z Qian, H Duan",
+    venue: "arXiv preprint, 2026",
+    links: [{ label: "Paper", url: "https://arxiv.org/abs/2608.01066" }]
+  },
+  {
+    title:
       "RynnBrain 1.1: Towards More Capable and Generalizable Embodied Foundation Model",
     authors:
       "K Li*, B Hou*, M Zhu*, <strong>T Zhang</strong>*, Z Cheng*, Z Wang*, S Leng*, X Li*, X Lin*, B Yao*, M Zeng*, J Liu*, R Dang*, ...",
@@ -121,6 +143,22 @@ const publicationsData = [
       "Z Gong*, H Gu*, Z Luo*, <strong>T Zhang</strong>*, T Tao*, Y Chi*, Z Liu*, L Zhu*, J Liu*, ...",
     venue: "arXiv preprint, 2026",
     links: [{ label: "Paper", url: "https://arxiv.org/abs/2607.04426" }]
+  },
+  {
+    title:
+      "Identifiability and Latent Geometry of Joint-embedding Predictive World Models",
+    authors:
+      "Y Zhang, C Liang, <strong>T Zhang</strong>, J Ding, Y-L Wu, A-B Li, W-C Su, Saifullah, H-Y An, M Wang",
+    venue: "SSRN preprint, 2026",
+    links: [{ label: "Paper", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7158998" }]
+  },
+  {
+    title:
+      "HyCE-RAG: Hypergraph Chain-of-Evidence Retrieval-Augmented Generation for Explainable Multi-hop Question Answering",
+    authors:
+      "H-Y An, Y-J Zhang, C-W Liang, <strong>T Zhang</strong>, J Ding, Y-L Wu, A-B Li, W-C Su, Saifullah, M Wang",
+    venue: "arXiv preprint, 2026",
+    links: [{ label: "Paper", url: "https://arxiv.org/abs/2607.22597" }]
   },
   {
     title:
@@ -192,7 +230,7 @@ const publicationsData = [
 const experienceData = [
   {
     date: { en: "2026.05 - Now", zh: "2026.05 - 今" },
-    en: "Research Intern, Alibaba Group, DAMO Academy(ALi Star Project)",
+    en: "Research Intern, Alibaba Group, DAMO Academy(Ali Star Project)",
     zh: "见习研究员，阿里巴巴集团 达摩院(阿里星项目)"
   },
   {
