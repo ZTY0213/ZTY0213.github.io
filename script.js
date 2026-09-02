@@ -12,6 +12,11 @@ const langToggle = document.querySelector(".lang-toggle");
 // News：date 为显示日期；en / zh 分别是英文和中文文案
 const newsData = [
   {
+    date: "2026.09",
+    en: '<a href="https://ieeexplore.ieee.org/abstract/document/11668701/" target="_blank" rel="noopener noreferrer">VeBrain 1.5</a> got accepted by IEEE TPAMI, an embodied brain model with enhanced perception, spatial reasoning and robot control in spaces.',
+    zh: '<a href="https://ieeexplore.ieee.org/abstract/document/11668701/" target="_blank" rel="noopener noreferrer">VeBrain 1.5</a> 被 IEEE TPAMI 接收，一款在感知、空间推理与机器人控制方面全面增强的具身大脑模型。'
+  },
+  {
     date: "2026.08",
     en: 'We released <a href="https://arxiv.org/pdf/2608.01066v1" target="_blank" rel="noopener noreferrer">OC-VLA++</a>, a method for VLA viewpoint enhancement using monocular geometry guidance and cross-view consistency constraints.',
     zh: '我们发布了 <a href="https://arxiv.org/pdf/2608.01066v1" target="_blank" rel="noopener noreferrer">OC-VLA++</a>， 一个利用单目几何引导和跨视角一致性约束实现VLA视角增强的方法。'
@@ -117,6 +122,14 @@ const newsData = [
 // Publications：论文信息不区分语言；links 里放按钮文字和链接，
 // 没有链接的按钮可以先写 "#" 占位，或者直接删掉那一项
 const publicationsData = [
+  {
+    title:
+      "Visual Embodied Brain-1.5: Enhanced Perception, Spatial Reasoning and Robot Control in Spaces",
+    authors:
+      "G Yang, G Luo, Z Gong, G Chen, H Duan, <strong>T Zhang</strong>, W Zhou, Y Qiao, W Wang, X Zhu, J Dai",
+    venue: "IEEE TPAMI, 2026",
+    links: [{ label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11668701/" }]
+  },
   {
     title:
       "OC-VLA++: Monocular Geometry-Guided Cross-View Consistency for Viewpoint-Robust Robotic Manipulation",
